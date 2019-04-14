@@ -275,11 +275,9 @@ a {
   width: 80%;
 }
 @media screen and (max-width: 800px) {
-  #container .left-col {
-    display: none;
-  }
   #container .mid-col {
     left: 0;
+    width: 100%;
   }
   #container #header .header-nav {
     position: relative;
@@ -2042,14 +2040,14 @@ pre .css ~ * .id {
   bottom: 6px;
 }
 #header .tagcloud a {
-  color: #fff;
+  color: #777;
 }
 .tagcloud a {
   display: inline-block;
   text-decoration: none;
   font-weight: normal;
   font-size: 10px;
-  color: #fff;
+  color: #777;
   height: 18px;
   line-height: 18px;
   float: left;
